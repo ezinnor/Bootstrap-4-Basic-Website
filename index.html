@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap4</title>
+</head>
+<body>
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1 class="display-3">Welcome to Bootstrap 4</h1>
+                    <p>Just like old bootstrap, just with some new features.</p>
+
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <label for="" class="sr-only">Name</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="Pradeep">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="sr-only">Email</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="pradeep@example.com">
+                        </div>
+                        <button class="btn btn-success btn-lg" type="submit">Go!!</button>
+                    </form>
+                    
+
+                    <br>
+                    <a href="#nav-main" class="btn btn-secondary-outline btn-sm" role="button">&darr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-inverse navbar-full" id="nav-main">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Pradeep</a>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav> 
+
+
+      <!--carousel starts here-->
+      <section class="carousel">
+
+        <div id="carousel-home" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-home" data-slide-to="1"></li>
+                <li data-target="#carousel-home" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/laptop.jpg" alt="Laptop with phone">
+                    <div class="carousel-caption">
+                        <h3>Laptop with Phone</h3>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/bridge.jpg" alt="A bridge">
+                    <div class="carousel-caption">
+                            <h3>A bridge</h3>
+                            
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/deer.jpg" alt="A deer">
+                    <div class="carousel-caption">
+                            <h3>A deer in Park</h3>
+                            
+                        </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+             </a>
+            <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </section>
+
+
+    <!-- cards here-->
+    <section id="what-we-do">
+        <div class="section-content">
+            <div class="container">
+                <h2>What we do</h2>
+                <p class="lead">
+                    Bunch of differnet things that we do below
+                </p>
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Picking &amp; Extracting</h4>
+                                <h6 class="card-subtitle">Support Card subtitle</h6>
+                            </div>
+                            <img src="img/coffee-cup.jpg" alt="Coffee Cup">
+                            <div class="card-block">
+                                <p class="card-text">
+                                    Raw coffee beans.
+                                </p>
+                                <button class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Crushing &amp; Mixing</h4>
+                                <h6 class="card-subtitle">Support Card subtitle</h6>
+                            </div>
+                            <img src="img/fresh-coffee.jpg" alt="Coffee Fresh">
+                            <div class="card-block">
+                                <p class="card-text">
+                                    fresh coffee pot.
+                                </p>
+                                <button class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Tasting &amp; Sealing</h4>
+                                <h6 class="card-subtitle">Support Card subtitle</h6>
+                            </div>
+                            <img src="img/fresh-staw.jpg" alt="Fresh Staw">
+                            <div class="card-block">
+                                <p class="card-text">
+                                    Fresh stawbarry in a cup.
+                                </p>
+                                <button class="btn btn-success-outline" data-toggle="modal" data-target="#myModal">Learn More</button>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About me</h3>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla ante, vulputate quis turpis vel, placerat ultricies urna. Morbi ac nibh est. Sed mollis tortor a maximus feugiat. Proin luctus sollicitudin mi, sit amet facilisis est mattis id. Ut in ultricies tortor. Cras vitae rutrum eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec faucibus lobortis rutrum. Sed volutpat urna nisl, at volutpat lorem scelerisque vitae. Ut suscipit libero turpis, vitae rutrum orci rhoncus vitae. Pellentesque aliquet tincidunt ligula, et posuere est. Vivamus id gravida lacus, sed congue diam.
+
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla ante, vulputate quis turpis vel, placerat ultricies urna. Morbi ac nibh est. Sed mollis tortor a maximus feugiat. Proin luctus sollicitudin mi, sit amet facilisis est mattis id. Ut in ultricies tortor. Cras vitae rutrum eros. Interdum et malesuada fames ac ante ipsum primis in faucibu</p>
+                        <h5>Follow me on Web</h5>
+                        <button class="btn btn-sm btn-secondary-outline"><a>Facebook</a></button>
+                        <button class="btn btn-sm btn-secondary-outline"><a>Instagram</a></button>
+                        <button class="btn btn-sm btn-secondary-outline"><a>Twitter</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="news">
+        <div class="section-content">
+            <div class="container">
+                <h3>Latest News</h3>
+                <p class="lead">Following are the latest news</p>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-columns">
+                            <div class="card">
+                              <img class="card-img-top img-fluid" src="img/iphone6.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h4 class="card-title">iPhoned6 unboxing</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                            <div class="card p-3">
+                              <blockquote class="card-block card-blockquote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer>
+                                  <small class="text-muted">
+                                    Someone famous in <cite title="Source Title">Times Magzine</cite>
+                                  </small>
+                                </footer>
+                              </blockquote>
+                            </div>
+                            <div class="card">
+                              <img class="card-img-top img-fluid" src="img/computer.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h4 class="card-title">Minimalistic Setup</h4>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card card-inverse card-primary p-3 text-center">
+                              <blockquote class="card-blockquote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                <footer>
+                                  <small>
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                  </small>
+                                </footer>
+                              </blockquote>
+                            </div>
+                            <div class="card text-center">
+                              <div class="card-block">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img class="card-img img-fluid" src="img/railway.jpg" alt="Card image">
+                            </div>
+                            <div class="card p-3 text-right">
+                              <blockquote class="card-blockquote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer>
+                                  <small class="text-muted">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                  </small>
+                                </footer>
+                              </blockquote>
+                            </div>
+                            <div class="card card-warning card-inverse">
+                              <div class="card-block">
+                                <h4 class="card-title">What's up</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <hr>
+                <nav class="text-xs-center">
+                 <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                     </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer here-->
+    <footer id="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>2018 Uncopyright</p>
+                    <p>Made with     &hearts; </p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About me</a></li>
+                        <li><a href="">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Google+</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p>Mauris blandit diam a ex ullamcorper dictum. Quisque sollicitudin nisl eget tincidunt ornare. Curabitur eu ligula ipsum. Nullam ipsum enim, imperdiet et mauris et, maximus lobortis tortor.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--jauery here-->
+    <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+    
+   
+  
+</body>
+</html>
